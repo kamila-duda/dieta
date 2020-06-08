@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Dieta</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+
+<body class="container-fluid">
+    <div class="row justify-content-between align-items-center py-2 px-3 px-md-4">
+        <h1 class="mainHeader">Plan diety</h1>
+        <a class="link" href="#list">Lista zakupów</a>
+    </div>
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                        aria-controls="collapseOne">
+                        Dzień #1
+                    </button>
+                </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    <h4>Start</h4>
+                    <p>zakwas z buraków - szklanka</p>
+                    <h4>Śniadanie</h4>
+                    <ul>
+                        <li>sok (1 pietruszki korzeń + 1 jabłko + 1 liść jarmużu)</li>
+                        <li>sałatka (mix sałat, kiszone buraki, rzodkiewka, papryka czerwona, pomidor, zioła
+                            prowansalskie)</li>
+                        <li>mała zupa kalafiorowa (wywar z włoszczyzny + kalafior, przyprawy)</li>
+                    </ul>
+                    <h4>Obiad</h4>
+                    <ul>
+                        <li>sałatka (mix sałat, ogórek, papryka, pomidor, zioła)</li>
+                        <li>sałatka z selera (kawałek selera – max połowa, 1 małe jabłko, sok z połowy cytryny)</li>
+                    </ul>
+                    <h4>Kolacja</h4>
+                    <ul>
+                        <li>sałatka (kapusta pekińska, ogórek kiszony, pomidor, papryka, oregano, bazylia, pieprz)</li>
+                        <li>sok jabłkowy z burakiem</li>
+                        <li>zupa kalafiorowa</li>
+                    </ul>
+                    <img src="/images/d1s.jpg" alt="jedzenie" class="img-fluid">
+                    <img src="/images/d1seler.jpg" alt="jedzenie" class="img-fluid">
+                    <img src="/images/d1kisz.jpg" alt="jedzenie" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                        aria-expanded="false" aria-controls="collapseTwo">
+                        Dzień #2
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                    <h4>Start</h4>
+                    <p>zakwas z buraków - szklanka</p>
+                    <h4>Śniadanie</h4>
+                    <ul>
+                        <li>sałatka (mix sałat, buraczki kiszone, kiszony ogórek, pomidor, rzodkiewka, dużo ziół)</li>
+                        <li>sok zielony (1 pietruszka, 1 jabłko, 1 liść jarmużu)</li>
+                        <li>mała zupa kalafiorowa (wywar z włoszczyzny + kalafior, przyprawy)</li>
+                    </ul>
+                    <h4>Obiad</h4>
+                    <ul>
+                        <li>pieczona marchewka (3 marchewki, przyprawy: papryka, kumin, sól, pieprz</li>
+                        <li>kiszona kapusta z jabłkiem</li>
+                    </ul>
+                    <h4>Kolacja</h4>
+                    <ul>
+                        <li>makaron z cukinii z sosem pomidorowym (cukinia, 1/2 puszki pomidorów w puszce, czosnek,
+                            przyprawy</li>
+                        <li>sok jabłkowy z burakiem</li>
+                        <li>kiszona kapusta</li>
+                    </ul>
+                    <img src="/images/d2kisz.jpg" alt="jedzenie" class="img-fluid">
+                    <img src="/images/d2march.jpg" alt="jedzenie" class="img-fluid">
+                    <img src="/images/d2spag.jpg" alt="jedzenie" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                        aria-expanded="false" aria-controls="collapseThree">
+                        Dzień #3
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                    <h4>Start</h4>
+                    <p>woda z cytryną</p>
+                    <h4>Śniadanie</h4>
+                    <ul>
+                        <li>sałatka z pomidorem, kiszonym ogórkiem, cebulą i szczypiorem.</li>
+                        <li>sok buraczkowy (1 jabłko, 1 marchewka, 1/2 buraka)</li>
+                    </ul>
+                    <h4>Obiad</h4>
+                    <ul>
+                        <li>pieczona marchewka (3 marchewki, przyprawy: papryka, kumin, sól, pieprz</li>
+                        <li>sałatka zielona (seler naciowy, kiszony ogórek, zielony ogórek, jabłko, szczypior, zioła)
+                        </li>
+                    </ul>
+                    <h4>Kolacja</h4>
+                    <ul>
+                        <li>zupa pomidorowa mus</li>
+                        <li>pieczone marchewki</li>
+                        <li>kiszona kapusta</li>
+                    </ul>
+                    <img src="/images/d3ziel.jpg" alt="jedzenie" class="img-fluid">
+                    <img src="/images/d3pom.jpg" alt="jedzenie" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingFour">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
+                        aria-expanded="false" aria-controls="collapseFour">
+                        Dzień #4
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                <div class="card-body">
+                    <h4>Start</h4>
+                    <p>zakwas z buraków - szklanka</p>
+                    <h4>Śniadanie</h4>
+                    <ul>
+                        <li>kotlety-placki z cukinii</li>
+                        <li>sok (1 jabłko, 1 marchew, pietruszka, 1/2 buraka)</li>
+                        <li>surowa marchewka jako przekąska</li>
+                    </ul>
+                    <h4>Obiad</h4>
+                    <ul>
+                        <li>leczo warzywne <a href="http://kotlet.tv/leczo-warzywne/" target="_blank">(przepis)</a></li>
+                    </ul>
+                    <h4>Kolacja</h4>
+                    <ul>
+                        <li>surówka z kapusty pekińskiej (kapusta pekińska, pomidor, rzodkiewka, szczypiorek, ogórek
+                            kiszony, słodka papryka, zioła)</li>
+                        <li>sok jabłkowy z burakiem</li>
+                    </ul>
+                    <img src="/images/d4plac.jpg" alt="jedzenie" class="img-fluid">
+                    <img src="/images/d4leczo.jpg" alt="jedzenie" class="img-fluid">
+                    <img src="/images/d4kol.jpg" alt="jedzenie" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingFive">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive"
+                        aria-expanded="false" aria-controls="collapseFive">
+                        Dzień #5
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                <div class="card-body">
+                    <h4>Start</h4>
+                    <p>woda z cytryną</p>
+                    <h4>Śniadanie</h4>
+                    <ul>
+                        <li>sałatka z pekińską kapustą (kapusta, ogórek kiszony, pomidor, zioła, papryka)</li>
+                        <li>sok z jabłka i buraka</li>
+                        <li>grejpfrut jako przekąska</li>
+                    </ul>
+                    <h4>Obiad</h4>
+                    <ul>
+                        <li>
+                            papryka faszerowana warzywami; <a
+                                href="https://dzieckowdrodze.com/dieta-dr-dabrowskiej-dzien-dziesiaty-papryka-faszerowana-warzywami/"
+                                target="_blank">(przepis)</a></li>
+                    </ul>
+                    <h4>Kolacja</h4>
+                    <ul>
+                        <li>sałatka zielona (kawałek pekińskiej kapusty, 2 ogórki kiszone, jabłko, łodyga selera
+                            naciowego, pomidor pomaranczowy, zioła)</li>
+                        <li>sok jabłkowy z burakiem</li>
+                    </ul>
+                    <img src="/images/d5papr.jpg" alt="jedzenie" class="img-fluid">
+                    <img src="/images/d5kol.jpg" alt="jedzenie" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingSix">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix"
+                        aria-expanded="false" aria-controls="collapseSix">
+                        Dzień #6
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                <div class="card-body">
+                    <h4>Start</h4>
+                    <p>woda z cytryną</p>
+                    <h4>Śniadanie</h4>
+                    <ul>
+                        <li>sałatka z pomidora, selera kiszonego, papryki</li>
+                        <li>sok z jabłka i buraka</li>
+                        <li>grejpfrut jako przekąska</li>
+                    </ul>
+                    <h4>Obiad</h4>
+                    <ul>
+                        <li>
+                            pomidor z cebulą</li>
+                        <li>mizeria z ogórka</li>
+                        <li>i coś jeszcze</li>
+                    </ul>
+                    <h4>Kolacja</h4>
+                    <ul>
+                        <li>sałatka zielona (kawałek pekińskiej kapusty, 2 ogórki kiszone, jabłko, łodyga selera
+                            naciowego, pomidor pomaranczowy, zioła)</li>
+                        <li>sok jabłkowy z burakiem</li>
+                    </ul>
+                    <img src="/images/d6s.jpg" alt="jedzenie" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingSeven">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven"
+                        aria-expanded="false" aria-controls="collapseSeven">
+                        Dzień #7
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                <div class="card-body">
+                    <h4>Start</h4>
+                    <p>woda z cytryną</p>
+                    <h4>Śniadanie</h4>
+                    <ul>
+                        <li>ałatka z kapusty pekińskiej (kapusta pekińska, papryka, pomidor, seler kiszony, seler
+                            naciowy, zioła)</li>
+                        <li>sok z jabłka i buraka</li>
+                    </ul>
+                    <h4>Obiad</h4>
+                    <ul>
+                        <li>
+                            sałatka a la tabbouleh<a href="http://kotlet.tv/salatka-ala-tabbouleh-bez-kaszy/"
+                                target="_blank">(przepis)</a></li>
+                        <li>i coś jeszcze</li>
+                    </ul>
+                    <h4>Kolacja</h4>
+                    <ul>
+                        <li>raw wrap (kapusta robi za wrapa, w środku warzywa i salsa pomidorowa)</li>
+                        <li>sok</li>
+                    </ul>
+                    <img src="/images/d7s.jpg" alt="jedzenie" class="img-fluid">
+                    <img src="/images/d7tab.jpg" alt="jedzenie" class="img-fluid">
+                    <img src="/images/d7wr.jpg" alt="jedzenie" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingEight">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight"
+                        aria-expanded="false" aria-controls="collapseEight">
+                        Collapsible Group Item #3
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+                <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                    labore sustainable VHS.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingNine">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine"
+                        aria-expanded="false" aria-controls="collapseNine">
+                        Collapsible Group Item #3
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+                <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                    labore sustainable VHS.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTen">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen"
+                        aria-expanded="false" aria-controls="collapseTen">
+                        Collapsible Group Item #3
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
+                <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                    labore sustainable VHS.
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="py-5">
+        <h3 id="list">Lista zakupów</h3>
+        <div class="row justify-content-between pt-4 px-4"><h4 class="shoppingListHeader">Od 1 do 4 dnia</h4><label for="first"><input type="checkbox" id="first"> Zrobione</label></div>
+        <ul class="shoppingList pb-3" id="firstList">
+            <li class="listItem">Buraki</li>
+            <li class="listItem">Mix sałat</li>
+            <li class="listItem">Pomidor</li>
+            <li class="listItem">Ogórek</li>
+        </ul>
+        <div class="row justify-content-between pt-4 px-4"><h4 class="shoppingListHeader">Od 5 do 7 dnia</h4><label for="second"><input type="checkbox" id="second"> Zrobione</label></div>
+        <ul class="shoppingList pb-3" id="secondList">
+            <li class="listItem">Buraki</li>
+            <li class="listItem">Mix sałat</li>
+            <li class="listItem">Pomidor</li>
+            <li class="listItem">Ogórek</li>
+        </ul>
+        <div class="row justify-content-between pt-4 px-4"><h4 class="shoppingListHeader">Od 8 do 10 dnia</h4><label for="third"><input type="checkbox" id="third"> Zrobione</label></div>
+        <ul class="shoppingList pb-3" id="thirdList">
+            <li class="listItem">Buraki</li>
+            <li class="listItem">Mix sałat</li>
+            <li class="listItem">Pomidor</li>
+            <li class="listItem">Ogórek</li>
+        </ul>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
