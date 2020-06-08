@@ -6,7 +6,7 @@ listItems.forEach(function (listItem) {
     });
 });
 
-
+        
 
 let doneLists = document.querySelectorAll("input");
 doneLists.forEach(function (doneList) {
