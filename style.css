@@ -34,7 +34,7 @@ html {
 }
 
 .shoppingListHeader {
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .shoppingList {
@@ -46,11 +46,15 @@ html {
   display: none;
 }
 
+#list {
+  font-size: 18px;
+}
+
 .listItem {
   background-color: #eee;
-  font-size: 15px;
+  font-size: 12px;
   text-transform: uppercase;
-  padding: 10px 20px;
+  padding: 5px 20px;
   cursor: pointer;
 }
 
