@@ -12,11 +12,11 @@
 </head>
 
 <body class="container">
-    <div class="row justify-content-between align-items-center py-2 px-3 px-md-4">
+    <div class="row justify-content-between align-items-center py-2 px-3 px-md-4 stretch">
         <h1 class="mainHeader">Plan diety</h1>
         <a class="link" href="#list">Lista zakupów</a>
     </div>
-    <div id="accordion">
+    <div id="accordion" class="col-12 col-md-6">
         <div class="card">
             <div class="card-header" id="headingOne">
                 <h2 class="mb-0">
@@ -68,25 +68,25 @@
                     <p>zakwas z buraków - max pół szklanki</p>
                     <h4>Śniadanie</h4>
                     <ul>
-                        <li>sałatka (mix sałat, buraczki kiszone, kiszony ogórek, pomidor, rzodkiewka, dużo ziół)</li>
+                        <li>sałatka (mix sałat, kiszony ogórek, pomidor, rzodkiewka, dużo ziół)</li>
                         <li>sok zielony (1 pietruszka, 1 jabłko, 1 liść jarmużu)</li>
                         <li>mała zupa cebulowa z wczoraj</li>
                     </ul>
+                    <img src="images/d2s.jpg" alt="jedzenie" class="img-fluid">
                     <h4>Obiad</h4>
                     <ul>
                         <li>pieczona marchewka (3 marchewki, przyprawy: papryka, kumin, sól, pieprz</li>
                         <li>kiszona kapusta z jabłkiem</li>
+                        <li>mała zupa cebulowa</li>
                     </ul>
+                    <img src="images/d2o.jpg" alt="jedzenie" class="img-fluid">
                     <h4>Kolacja</h4>
                     <ul>
                         <li>makaron z cukinii z sosem pomidorowym (cukinia, 1/2 puszki pomidorów w puszce, czosnek,
                             przyprawy</li>
                         <li>sok jabłkowy z burakiem</li>
-                        <li>kiszona kapusta</li>
-                    </ul>
-                    <img src="images/d2kisz.jpg" alt="jedzenie" class="img-fluid">
-                    <img src="images/d2march.jpg" alt="jedzenie" class="img-fluid">
-                    <img src="images/d2spag.jpg" alt="jedzenie" class="img-fluid">
+                    </ul>                   
+                    <img src="images/d2k.jpg" alt="jedzenie" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -102,7 +102,7 @@
             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                 <div class="card-body">
                     <h4>Start</h4>
-                    <p>woda z cytryną</p>
+                    <p>zakwas z buraków - max pół szklanki</p>
                     <h4>Śniadanie</h4>
                     <ul>
                         <li>sałatka z pomidorem, kiszonym ogórkiem, cebulą i szczypiorem.</li>
@@ -360,9 +360,9 @@
             </div>
         </div>
     </div>
-    <section class="py-5">
+    <section class="py-5 col-12 col-md-6">
         <h3 id="list">Lista zakupów</h3>
-        <div class="row justify-content-between pt-4 px-4"><h4 class="shoppingListHeader">Od 1 do 4 dnia</h4><label for="first"><input type="checkbox" id="first"> Zrobione</label></div>
+        <div class="row justify-content-between pt-1 px-4"><h4 class="shoppingListHeader">Od 1 do 4 dnia</h4><label for="first"><input type="checkbox" id="first"> Zrobione</label></div>
         <ul class="shoppingList pb-3" id="firstList">
             <li class="listItem">zakwas z buraków</li>
             <li class="listItem">4 korzenie pietruszki</li>

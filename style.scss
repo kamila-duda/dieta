@@ -8,9 +8,30 @@ html {
 *::after {
     box-sizing: inherit;
 }
+.container{
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+}
+
 .mainHeader{
     font-family: fantasy;
     text-transform: uppercase;
+}
+.mainHeader::before{
+    content: "wg dr Dąbrowskiej";
+    position: absolute;
+    width: 50%;
+    height: 5%;
+    font-size: 15px;
+    text-transform: none;
+    top: 50px;
+}
+.stretch{
+    align-self: stretch;
 }
 .link {
     color: #4017f7;
@@ -27,6 +48,9 @@ html {
 }
 .shoppingListHeader{
     font-size: 15px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 3px;
 }
 .shoppingList{
     list-style: none;
@@ -37,6 +61,10 @@ html {
 }
 #list{
     font-size: 18px;
+    background-color: #fff;
+    padding: 3px;
+    text-align: center;
+    border-radius: 3px;
 }
 .listItem{
     background-color: #eee;
